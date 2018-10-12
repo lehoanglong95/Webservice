@@ -22,7 +22,14 @@ class SqlHelper:
     #     cursor.execute(self.sql_query.query_all())
     #     return cursor.fetchall()
 
-    def query_by_id(self, msisdn, part):
+    def user_data_query_by(self, msisdn, gender, locations, age, limit, part):
         cursor = self.connect_mysql()
-        cursor.execute(self.sql_query.query_by(msisdn, part))
+        cursor.execute(self.sql_query.user_data_query_by(msisdn, gender, locations, age, limit, part))
+        cursor.close()
+        return cursor.fetchall()
+
+    def location_query(self):
+        cursor = self.connect_mysql()
+        cursor.execute(self.sql_query.location_query())
+        cursor.close()
         return cursor.fetchall()
