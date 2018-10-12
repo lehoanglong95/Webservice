@@ -1,5 +1,6 @@
-def msisdn_handle(msisdns):
-    new_phone_list = "(" + ",".join("'" + str(x)[0:len(str(x))] + "'" for x in msisdns) + ")"
+# handle list msisdn or fb_id
+def handle(list_data):
+    new_phone_list = "(" + ",".join("'" + str(x)[0:len(str(x))] + "'" for x in list_data) + ")"
     return new_phone_list
 
 def gender_handle(gender):
@@ -44,12 +45,8 @@ def location_split(locations):
 
 class SqlQuery:
 
-    # def query_all(self):
-    #     return 'SELECT province,district,ward FROM lba.cell_enodeb limit 100'
-
-
     def user_data_query_by(self, msisdn, gender, locations, age, limit,  part):
-        new_msisdn = msisdn_handle(msisdn)
+        new_msisdn = handle(msisdn)
         new_gender = gender_handle(gender)
         new_locations = location_handle(locations)
         new_age = age_handle(age)
@@ -60,6 +57,11 @@ class SqlQuery:
         else:
             query = 'SELECT * FROM Fb.phone_to_fb_part{}_test WHERE msisdn IN {} AND {} AND province IN {} AND district IN {} AND gender IN {} limit {}'.format(part, new_msisdn, new_age, new_locations[0], new_locations[1], new_gender, new_limit)
         print(query)
+        return query
+
+    def msisdn_query_by(self, fb_ids, part):
+        new_fb_ids = handle(fb_ids)
+        query = "SELECT msisdn FROM Fb.fb_to_phone_part{} where fb_id IN {}".format(part, new_fb_ids)
         return query
 
     def location_query(self):

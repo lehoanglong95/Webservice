@@ -1,11 +1,11 @@
 import pandas as pd
 
-def take_phone_list_from_csv(file_location):
+def take_data_list_from_csv(file_location):
     df = pd.read_csv(file_location, header=None)
-    phone_list = []
+    list_data = []
     for index, row in df.iterrows():
-        phone_list.append(str(row[0]))
-    return phone_list
+        list_data.append(str(row[0]))
+    return list_data
 
 def write_csv_from_tuple(data, file_location):
     res_df = pd.DataFrame(data, columns=['msisdn', 'fb_id', 'gender', 'dob', 'name', 'province', 'district', 'ward'])

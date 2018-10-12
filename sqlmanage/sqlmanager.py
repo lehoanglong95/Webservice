@@ -22,3 +22,11 @@ class SqlManager:
              province_lists[int(result[2])] = str(result[3])
              district_lists[int(result[0])] = str(result[1])
          return (province_lists, district_lists)
+
+     def take_msisdn_from_fbid(self, fb_ids):
+         results = []
+         for index, hash_coded_fb_id in enumerate(fb_ids):
+             if len(hash_coded_fb_id) != 0:
+                 result = self.sql_helper.msisdn_query_by(hash_coded_fb_id, index)
+                 results.append(result)
+         return results

@@ -17,11 +17,6 @@ class SqlHelper:
         cursor = connect.cursor()
         return cursor
 
-    # def query_all(self):
-    #     cursor = self.connect_mysql()
-    #     cursor.execute(self.sql_query.query_all())
-    #     return cursor.fetchall()
-
     def user_data_query_by(self, msisdn, gender, locations, age, limit, part):
         cursor = self.connect_mysql()
         cursor.execute(self.sql_query.user_data_query_by(msisdn, gender, locations, age, limit, part))
@@ -31,5 +26,11 @@ class SqlHelper:
     def location_query(self):
         cursor = self.connect_mysql()
         cursor.execute(self.sql_query.location_query())
+        cursor.close()
+        return cursor.fetchall()
+
+    def msisdn_query_by(self, fb_ids, part):
+        cursor = self.connect_mysql()
+        cursor.execute(self.sql_query.msisdn_query_by(fb_ids, part))
         cursor.close()
         return cursor.fetchall()
