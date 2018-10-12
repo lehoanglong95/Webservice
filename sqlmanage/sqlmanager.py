@@ -19,6 +19,6 @@ class SqlManager:
          district_lists = {}
          results = self.sql_helper.location_query()
          for result in results:
-             province_lists[str(result[3])] = int(result[2])
-             district_lists[str(result[1])] = int(result[0])
+             province_lists[int(result[2])] = str(result[3])
+             district_lists[int(result[0])] = str(result[1])
          return (province_lists, district_lists)
