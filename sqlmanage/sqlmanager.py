@@ -10,8 +10,11 @@ class SqlManager:
         results = []
         for index, hash_coded_phone in enumerate(phone_list):
             if len(hash_coded_phone) != 0:
-                result = self.sql_helper.user_data_query_by(hash_coded_phone, gender, locations, age, limit, index)
-                results.append(result)
+                try:
+                    result = self.sql_helper.user_data_query_by(hash_coded_phone, gender, locations, age, limit, index)
+                    results.append(result)
+                except:
+                    continue
         return results
 
      def take_location(self):

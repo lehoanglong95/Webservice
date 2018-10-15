@@ -28,7 +28,7 @@ def phone_to_fb():
     data_taker.take_data_from_phone_and_write_to_csv()
     return "Success"
 
-@app.route("/fbtophone", methods=['POST'])
+@app.route("/fbtophone/", methods=['POST'])
 def fb_to_phone():
     request_data = RequestData(request.data)
     data_taker = DataTaker(request_data, sql_manager, province_lists, district_lists)
