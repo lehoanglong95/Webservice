@@ -1,7 +1,8 @@
-from hash_code_helper import hash_code_phone_number, hash_code_fb_id
+from hash_code_helper import hash_code_phone_numbers, hash_code_fb_ids
 from model.userinfo import take_list_userinfo_from_resultsql_list
 from csv_helper import take_data_list_from_csv, write_csv_from_tuple
 from locationmapping import location_mapping
+from csv_helper import take_data_list_from_csv
 
 class DataTaker:
     def __init__(self, request_data, sql_manager, provinces, districts):
@@ -17,16 +18,22 @@ class DataTaker:
         else:
             self.take_data_from_phone_and_write_to_csv(data_list)
 
-    def take_data_from_phone_and_write_to_csv(self, data_list):
-        hash_coded_phone_list = hash_code_phone_number(data_list)
+    def take_data_from_db_and_write_to_csv(self, data_list):
+        hash_coded_phone_list = hash_code_phone_numbers(data_list)
         results = self.sql_manager.take_data_from_phone_list(hash_coded_phone_list, self.request_data.gender,
-                                                        self.request_data.location, self.request_data.age, self.request_data.limit)
+                                                             self.request_data.location, self.request_data.age,
+                                                             self.request_data.limit)
         res = take_list_userinfo_from_resultsql_list(results)
         location_mapping_res = location_mapping(res, self.provinces, self.districts)
         write_csv_from_tuple(location_mapping_res, "/home/longle/Desktop/result{}.csv".format(self.request_data.id))
 
-    def take_data_from_fb_and_write_to_csv(self, data_list):
-        hash_coded_fb_ids = hash_code_fb_id(data_list)
+    def take_data_from_phone_and_write_to_csv(self):
+       data_list = take_data_list_from_csv(self.request_data.file_location)
+       self.take_data_from_db_and_write_to_csv(data_list)
+
+    def take_data_from_fb_and_write_to_csv(self):
+        data_list = take_data_list_from_csv(self.request_data.file_location)
+        hash_coded_fb_ids = hash_code_fb_ids(data_list)
         results = self.sql_manager.take_msisdn_from_fbid(hash_coded_fb_ids)
         res = []
         if len(results) != 0:
@@ -36,4 +43,4 @@ class DataTaker:
                         res.append(fb_id_result[0])
                     except:
                         continue
-        self.take_data_from_phone_and_write_to_csv(res)
+        self.take_data_from_db_and_write_to_csv(res)

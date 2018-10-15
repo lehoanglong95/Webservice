@@ -16,7 +16,7 @@ def msisdn_partition(s):
 def fbid_partition(s):
     return base_partition(s, 10)
 
-def hash_code_phone_number(phone_list):
+def hash_code_phone_numbers(phone_list):
     result = [[]]
     for _ in range(0, 20):
         result.append([])
@@ -25,7 +25,7 @@ def hash_code_phone_number(phone_list):
         result[code].append(phone)
     return result
 
-def hash_code_fb_id(fb_ids):
+def hash_code_fb_ids(fb_ids):
     result = [[]]
     for _ in range(0, 10):
         result.append([])

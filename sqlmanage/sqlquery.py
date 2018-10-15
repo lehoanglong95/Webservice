@@ -56,7 +56,6 @@ class SqlQuery:
                 part, new_msisdn, new_age, new_gender, new_limit)
         else:
             query = 'SELECT * FROM Fb.phone_to_fb_part{}_test WHERE msisdn IN {} AND {} AND province IN {} AND district IN {} AND gender IN {} limit {}'.format(part, new_msisdn, new_age, new_locations[0], new_locations[1], new_gender, new_limit)
-        print(query)
         return query
 
     def msisdn_query_by(self, fb_ids, part):
