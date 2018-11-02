@@ -35,7 +35,7 @@ class SqlHelper:
         cursor.close()
         return cursor.fetchall()
 
-    def update_request_status(id, link_download, number_import, import_status):
+    def update_request_status(self, id, link_download, number_import, import_status):
         cursor = self.connect_mysql()
         print("b")
         cursor.execute(self.sql_query.update_request_status(id, link_download, number_import, import_status))
