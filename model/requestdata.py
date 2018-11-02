@@ -23,6 +23,7 @@ def take_list_data_from_json(json_result, field_name):
 class RequestData:
     def __init__(self, data):
         json_result = json.loads(data)
+       	self.file_name = take_string_data_from_json(json_result, "file_name")
         self.id = take_string_data_from_json(json_result, "id")
         self.type = take_string_data_from_json(json_result, "type")
         self.file_location = take_string_data_from_json(json_result, "file_location")

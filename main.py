@@ -15,7 +15,7 @@ sql_manager = SqlManager(app)
 def home():
     return "Hello this is home page"
 
-@app.route("/phonetofb/", methods=['POST'])
+@app.route("/phonetofb", methods=['POST'])
 def phone_to_fb():
     request_data = RequestData(request.data)
     data_taker = DataTaker(request_data, sql_manager, province_lists, district_lists)
@@ -25,15 +25,13 @@ def phone_to_fb():
     # res  = take_list_userinfo_from_resultsql_list(results)
     # location_mapping_res = location_mapping(res, province_lists, district_lists)
     # write_csv_from_tuple(location_mapping_res, "/home/longle/Desktop/result{}.csv".format(request_data.id))
-    data_taker.take_data_from_phone_and_write_to_csv()
-    return "Success"
+    return data_taker.take_data_from_phone_and_write_to_csv()
 
-@app.route("/fbtophone/", methods=['POST'])
+@app.route("/fbtophone", methods=['POST'])
 def fb_to_phone():
     request_data = RequestData(request.data)
     data_taker = DataTaker(request_data, sql_manager, province_lists, district_lists)
-    data_taker.take_data_from_fb_and_write_to_csv()
-    return "Success"
+    return data_taker.take_data_from_fb_and_write_to_csv()
 
 if __name__== '__main__':
     app.run(debug=True)

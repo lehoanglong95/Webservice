@@ -1,0 +1,730 @@
+ * Serving Flask app "This is my first Flask App" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+127.0.0.1 - - [23/Oct/2018 10:05:17] "POST /fbtophone HTTP/1.1" 200 -
+ * Serving Flask app "This is my first Flask App" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+127.0.0.1 - - [23/Oct/2018 10:08:08] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [23/Oct/2018 10:08:13] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/main.py', reloading
+aaa
+file is not exist
+aaa
+file is not exist
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+aaa
+127.0.0.1 - - [23/Oct/2018 10:09:40] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/main.py', reloading
+file is not exist
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+ * Detected change in '/home/adv/Webservice/csv_helper.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+ * Detected change in '/home/adv/Webservice/csv_helper.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+127.0.0.1 - - [23/Oct/2018 10:22:09] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/datataker.py', reloading
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+ * Detected change in '/home/adv/Webservice/datataker.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+ * Detected change in '/home/adv/Webservice/datataker.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+127.0.0.1 - - [23/Oct/2018 10:25:01] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/datataker.py', reloading
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+127.0.0.1 - - [23/Oct/2018 10:27:42] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+127.0.0.1 - - [23/Oct/2018 10:28:03] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+127.0.0.1 - - [23/Oct/2018 10:28:18] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+127.0.0.1 - - [23/Oct/2018 10:28:18] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/sqlmanage/sqlmanager.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+127.0.0.1 - - [23/Oct/2018 10:33:57] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/sqlmanage/sqlquery.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6_test WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7_test WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [23/Oct/2018 10:35:36] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/sqlmanage/sqlquery.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [23/Oct/2018 10:38:30] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2018 22:52:08] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2018 22:52:22] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2018 22:52:57] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2018 22:59:12] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2018 22:59:26] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2018 23:00:36] "POST /fbtophone HTTP/1.1" 200 -
+file is not exist
+file is not exist
+file is not exist
+file is not exist
+file is not exist
+file is not exist
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:11:18] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:13:29] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:16:43] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:28:18] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:34:32] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:40:49] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:41:17] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:46:48] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:49:27] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:54:13] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [24/Oct/2018 23:57:00] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 00:07:38] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:31:53] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:36:12] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:41:26] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:46:16] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:49:40] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:58:54] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 09:59:03] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 10:04:18] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 10:09:25] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 10:47:25] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 10:49:19] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 10:53:15] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/datataker.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 11:02:17] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 11:05:46] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 19:07:28] "POST /fbtophone HTTP/1.1" 500 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/adv/Webservice/main.py", line 34, in fb_to_phone
+    return data_taker.take_data_from_fb_and_write_to_csv()
+  File "/home/adv/Webservice/datataker.py", line 57, in take_data_from_fb_and_write_to_csv
+    self.take_data_from_db_and_write_to_csv(res)
+  File "/home/adv/Webservice/datataker.py", line 28, in take_data_from_db_and_write_to_csv
+    write_csv_from_tuple(location_mapping_res, "/usr/share/nginx/html/adv/storage/app/results/{}".format(self.request_data.file_name))
+  File "/home/adv/Webservice/csv_helper.py", line 15, in write_csv_from_tuple
+    res_df.to_csv(file_location, index=False)
+  File "/usr/lib64/python3.6/site-packages/pandas/core/frame.py", line 1745, in to_csv
+    formatter.save()
+  File "/usr/lib64/python3.6/site-packages/pandas/io/formats/csvs.py", line 156, in save
+    compression=self.compression)
+  File "/usr/lib64/python3.6/site-packages/pandas/io/common.py", line 400, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding)
+IsADirectoryError: [Errno 21] Is a directory: '/usr/share/nginx/html/adv/storage/app/results/'
+127.0.0.1 - - [25/Oct/2018 19:08:05] "POST /fbtophone HTTP/1.1" 500 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/adv/Webservice/main.py", line 34, in fb_to_phone
+    return data_taker.take_data_from_fb_and_write_to_csv()
+  File "/home/adv/Webservice/datataker.py", line 57, in take_data_from_fb_and_write_to_csv
+    self.take_data_from_db_and_write_to_csv(res)
+  File "/home/adv/Webservice/datataker.py", line 28, in take_data_from_db_and_write_to_csv
+    write_csv_from_tuple(location_mapping_res, "/usr/share/nginx/html/adv/storage/app/results/{}".format(self.request_data.file_name))
+  File "/home/adv/Webservice/csv_helper.py", line 15, in write_csv_from_tuple
+    res_df.to_csv(file_location, index=False)
+  File "/usr/lib64/python3.6/site-packages/pandas/core/frame.py", line 1745, in to_csv
+    formatter.save()
+  File "/usr/lib64/python3.6/site-packages/pandas/io/formats/csvs.py", line 156, in save
+    compression=self.compression)
+  File "/usr/lib64/python3.6/site-packages/pandas/io/common.py", line 400, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding)
+IsADirectoryError: [Errno 21] Is a directory: '/usr/share/nginx/html/adv/storage/app/results/'
+127.0.0.1 - - [25/Oct/2018 20:03:31] "POST /fbtophone HTTP/1.1" 500 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/adv/Webservice/main.py", line 34, in fb_to_phone
+    return data_taker.take_data_from_fb_and_write_to_csv()
+  File "/home/adv/Webservice/datataker.py", line 57, in take_data_from_fb_and_write_to_csv
+    self.take_data_from_db_and_write_to_csv(res)
+  File "/home/adv/Webservice/datataker.py", line 28, in take_data_from_db_and_write_to_csv
+    write_csv_from_tuple(location_mapping_res, "/usr/share/nginx/html/adv/storage/app/results/{}".format(self.request_data.file_name))
+  File "/home/adv/Webservice/csv_helper.py", line 15, in write_csv_from_tuple
+    res_df.to_csv(file_location, index=False)
+  File "/usr/lib64/python3.6/site-packages/pandas/core/frame.py", line 1745, in to_csv
+    formatter.save()
+  File "/usr/lib64/python3.6/site-packages/pandas/io/formats/csvs.py", line 156, in save
+    compression=self.compression)
+  File "/usr/lib64/python3.6/site-packages/pandas/io/common.py", line 400, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding)
+IsADirectoryError: [Errno 21] Is a directory: '/usr/share/nginx/html/adv/storage/app/results/'
+127.0.0.1 - - [25/Oct/2018 20:05:42] "POST /fbtophone HTTP/1.1" 500 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/adv/Webservice/main.py", line 34, in fb_to_phone
+    return data_taker.take_data_from_fb_and_write_to_csv()
+  File "/home/adv/Webservice/datataker.py", line 57, in take_data_from_fb_and_write_to_csv
+    self.take_data_from_db_and_write_to_csv(res)
+  File "/home/adv/Webservice/datataker.py", line 28, in take_data_from_db_and_write_to_csv
+    write_csv_from_tuple(location_mapping_res, "/usr/share/nginx/html/adv/storage/app/results/{}".format(self.request_data.file_name))
+  File "/home/adv/Webservice/csv_helper.py", line 15, in write_csv_from_tuple
+    res_df.to_csv(file_location, index=False)
+  File "/usr/lib64/python3.6/site-packages/pandas/core/frame.py", line 1745, in to_csv
+    formatter.save()
+  File "/usr/lib64/python3.6/site-packages/pandas/io/formats/csvs.py", line 156, in save
+    compression=self.compression)
+  File "/usr/lib64/python3.6/site-packages/pandas/io/common.py", line 400, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding)
+IsADirectoryError: [Errno 21] Is a directory: '/usr/share/nginx/html/adv/storage/app/results/'
+127.0.0.1 - - [25/Oct/2018 20:08:18] "POST /fbtophone HTTP/1.1" 500 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/adv/Webservice/main.py", line 34, in fb_to_phone
+    return data_taker.take_data_from_fb_and_write_to_csv()
+  File "/home/adv/Webservice/datataker.py", line 57, in take_data_from_fb_and_write_to_csv
+    self.take_data_from_db_and_write_to_csv(res)
+  File "/home/adv/Webservice/datataker.py", line 28, in take_data_from_db_and_write_to_csv
+    write_csv_from_tuple(location_mapping_res, "/usr/share/nginx/html/adv/storage/app/results/{}".format(self.request_data.file_name))
+  File "/home/adv/Webservice/csv_helper.py", line 15, in write_csv_from_tuple
+    res_df.to_csv(file_location, index=False)
+  File "/usr/lib64/python3.6/site-packages/pandas/core/frame.py", line 1745, in to_csv
+    formatter.save()
+  File "/usr/lib64/python3.6/site-packages/pandas/io/formats/csvs.py", line 156, in save
+    compression=self.compression)
+  File "/usr/lib64/python3.6/site-packages/pandas/io/common.py", line 400, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding)
+IsADirectoryError: [Errno 21] Is a directory: '/usr/share/nginx/html/adv/storage/app/results/'
+127.0.0.1 - - [25/Oct/2018 20:42:02] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [25/Oct/2018 20:44:09] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+127.0.0.1 - - [25/Oct/2018 20:45:11] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [26/Oct/2018 07:51:48] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [26/Oct/2018 08:51:02] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/sqlmanage/sqlquery.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    from sqlmanage.sqlmanager import SqlManager
+  File "/home/adv/Webservice/sqlmanage/sqlmanager.py", line 1, in <module>
+    from sqlmanage.sqlhelper import SqlHelper
+  File "/home/adv/Webservice/sqlmanage/sqlhelper.py", line 3, in <module>
+    from sqlmanage.sqlquery import SqlQuery
+  File "/home/adv/Webservice/sqlmanage/sqlquery.py", line 72
+    return "INSERT INTO request_status (link_download,number_import, import_success) VALUES ({}, {}, {})".format(link_download, number_import, import_success)"
+                                                                                                                                                              ^
+SyntaxError: EOL while scanning string literal
+ * Serving Flask app "This is my first Flask App" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+ * Serving Flask app "This is my first Flask App" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 150-804-511
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [29/Oct/2018 21:51:05] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [29/Oct/2018 21:51:23] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [29/Oct/2018 21:51:37] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ( -2 < age < 1000 ) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [29/Oct/2018 21:53:22] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2018 23:32:34] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2018 23:33:14] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2018 23:34:10] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2018 23:40:20] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2018 23:41:04] "POST /fbtophone HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2018 23:41:15] "POST /fbtophone HTTP/1.1" 200 -
+file is not exist
+file is not exist
+file is not exist
+file is not exist
+file is not exist
+file is not exist
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ([ < age < 0 OR[ < age < 1 OR[ < age < 2 OR[ < age < 3 OR[ < age < 4 OR[ < age < 6) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ([ < age < 0 OR[ < age < 1 OR[ < age < 2 OR[ < age < 3 OR[ < age < 4 OR[ < age < 6) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [01/Nov/2018 23:51:57] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+127.0.0.1 - - [01/Nov/2018 23:54:19] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ([ < age < 0 OR[ < age < 1 OR[ < age < 2 OR[ < age < 3 OR[ < age < 4 OR[ < age < 6) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ([ < age < 0 OR[ < age < 1 OR[ < age < 2 OR[ < age < 3 OR[ < age < 4 OR[ < age < 6) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [01/Nov/2018 23:54:30] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+SELECT * FROM adv.phone_to_fb_part6 WHERE msisdn IN ('841642611995') AND ([ < age < 0 OR[ < age < 1 OR[ < age < 2 OR[ < age < 3 OR[ < age < 4 OR[ < age < 6) AND gender IN (-1, 1, 2) limit 500
+SELECT * FROM adv.phone_to_fb_part7 WHERE msisdn IN ('841676363850') AND ([ < age < 0 OR[ < age < 1 OR[ < age < 2 OR[ < age < 3 OR[ < age < 4 OR[ < age < 6) AND gender IN (-1, 1, 2) limit 500
+127.0.0.1 - - [02/Nov/2018 06:18:05] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part3 where fb_id IN ('100003179844910')
+SELECT msisdn FROM adv.fb_to_phone_part9 where fb_id IN ('100001524455811')
+['841676363850', '841642611995']
+[[], [], [], [], [], [], ['841642611995'], ['841676363850'], [], [], [], [], [], [], [], [], [], [], [], [], []]
+127.0.0.1 - - [02/Nov/2018 06:19:10] "POST /fbtophone HTTP/1.1" 200 -
+fb query...
+SELECT msisdn FROM adv.fb_to_phone_part5 where fb_id IN ('100002000000000.0')
+[]
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+127.0.0.1 - - [02/Nov/2018 21:23:12] "POST /fbtophone HTTP/1.1" 200 -
+ * Detected change in '/home/adv/Webservice/datataker.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "main.py", line 7, in <module>
+    from datataker import DataTaker
+  File "/home/adv/Webservice/datataker.py", line 62
+    else:
+       ^
+SyntaxError: invalid syntax

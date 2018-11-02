@@ -8,6 +8,7 @@ class SqlManager:
      def take_data_from_phone_list(self, phone_list, gender, locations, age, limit):
         # phone list is 2d list of phone with phone_list[index] contains all phone which have hash code is index
         results = []
+        print(phone_list,flush=True)
         for index, hash_coded_phone in enumerate(phone_list):
             if len(hash_coded_phone) != 0:
                 try:
@@ -33,3 +34,7 @@ class SqlManager:
                  result = self.sql_helper.msisdn_query_by(hash_coded_fb_id, index)
                  results.append(result)
          return results
+
+     def update_request_status(id, link_download,number_import, success_import):
+         print("a")
+         self.sql_helper.update_request_status(id, link_download, number_import, success_import)

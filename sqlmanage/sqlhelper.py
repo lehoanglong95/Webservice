@@ -34,3 +34,10 @@ class SqlHelper:
         cursor.execute(self.sql_query.msisdn_query_by(fb_ids, part))
         cursor.close()
         return cursor.fetchall()
+
+    def update_request_status(id, link_download, number_import, import_status):
+        cursor = self.connect_mysql()
+        print("b")
+        cursor.execute(self.sql_query.update_request_status(id, link_download, number_import, import_status))
+        cursor.close()
+        return cursor.fetchall()

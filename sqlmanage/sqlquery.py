@@ -52,16 +52,24 @@ class SqlQuery:
         new_age = age_handle(age)
         new_limit = limit_handle(limit)
         if len(new_locations) == 0:
-            query = 'SELECT * FROM Fb.phone_to_fb_part{}_test WHERE msisdn IN {} AND {} AND gender IN {} limit {}'.format(
+            query = 'SELECT * FROM adv.phone_to_fb_part{} WHERE msisdn IN {} AND {} AND gender IN {} limit {}'.format(
                 part, new_msisdn, new_age, new_gender, new_limit)
+            print(query,flush=True)
         else:
-            query = 'SELECT * FROM Fb.phone_to_fb_part{}_test WHERE msisdn IN {} AND {} AND province IN {} AND district IN {} AND gender IN {} limit {}'.format(part, new_msisdn, new_age, new_locations[0], new_locations[1], new_gender, new_limit)
+            query = 'SELECT * FROM adv.phone_to_fb_part{} WHERE msisdn IN {} AND {} AND province IN {} AND district IN {} AND gender IN {} limit {}'.format(part, new_msisdn, new_age, new_locations[0], new_locations[1], new_gender, new_limit)
+            print(query,flush=True)
         return query
 
     def msisdn_query_by(self, fb_ids, part):
         new_fb_ids = handle(fb_ids)
-        query = "SELECT msisdn FROM Fb.fb_to_phone_part{} where fb_id IN {}".format(part, new_fb_ids)
+        query = "SELECT msisdn FROM adv.fb_to_phone_part{} where fb_id IN {}".format(part, new_fb_ids)
+        print(query)
         return query
 
     def location_query(self):
-        return "SELECT * FROM Fb.districts"
+        return "SELECT * FROM adv.districts"
+
+    def update_request_status(self, id, link_download, number_import, import_success):
+        query =  "UPDATE request_status SET link_download = {}, number_import = {}, import_success = {} WHERE id = {}".format(link_download, number_import, import_success, id)
+        print(query)
+        return query
