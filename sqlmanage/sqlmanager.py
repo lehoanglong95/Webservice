@@ -36,5 +36,4 @@ class SqlManager:
          return results
 
      def update_request_status(self, id, link_download,number_import, success_import):
-         print("a")
          self.sql_helper.update_request_status(id, link_download, number_import, success_import)
