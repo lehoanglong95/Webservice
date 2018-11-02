@@ -24,15 +24,12 @@ class DataTaker:
         results = self.sql_manager.take_data_from_phone_list(hash_coded_phone_list, self.request_data.gender,
                                                              self.request_data.location, self.request_data.age,
                                                              self.request_data.limit)
-        print("abc{}".format(results))
-        print(len(results))
         if len(results) != 0:
            res = take_list_userinfo_from_resultsql_list(results)
            location_mapping_res = location_mapping(res, self.provinces, self.districts)
            print(location_mapping_res)
            link_download = "/usr/share/nginx/html/adv/storage/app/results/{}".format(self.request_data.file_name)
-           print(link_download)
-           self.sql_manager.update_request_status(self.request_data.id, link_dowload, len(data_list), len(location_mapping_res))
+           self.sql_manager.update_request_status(self.request_data.id, link_download, len(data_list), len(location_mapping_res))
            write_csv_from_tuple(location_mapping_res, link_download)
            return "success"
         else:
