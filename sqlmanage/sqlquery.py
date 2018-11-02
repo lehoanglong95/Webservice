@@ -70,6 +70,6 @@ class SqlQuery:
         return "SELECT * FROM adv.districts"
 
     def update_request_status(self, id, link_download, number_import, import_success):
-        query = "UPDATE adv.request_status SET link_download = {}, number_import = {}, import_success = {} WHERE id = {}".format(link_download, number_import, import_success, id)
+        query = "UPDATE adv.request_status SET link_download = '{}', number_import = {}, import_success = {} WHERE id = {}".format(link_download, number_import, import_success, id)
         print(query)
         return query
